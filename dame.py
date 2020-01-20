@@ -1,5 +1,5 @@
 
-import sys, ast
+import ast,sys
 from itertools import permutations
 
 def etape(permutation):
