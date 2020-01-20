@@ -14,8 +14,8 @@ def resultat(la_list):
     list_permututation = []
     solutions = []
 
-    for pos in list(range(len(la_list))):
-        if pos not in la_list:
+    for bas in list(range(len(la_list))):
+        if bas not in la_list:
             list_permututation.append(bas)
 
     la_list=list(filter((-1).__ne__, la_list))
